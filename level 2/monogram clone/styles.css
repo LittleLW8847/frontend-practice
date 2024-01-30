@@ -1,0 +1,16 @@
+.nav{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background: darkblue;
+    height: 53px;
+    width: 100%;
+    padding: 0.1em;
+}
+
+.fixed{
+    position: absolute;
+}
