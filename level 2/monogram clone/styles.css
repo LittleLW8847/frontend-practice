@@ -5,12 +5,11 @@
 .nav{
     width: 100%;
     padding: 15px;
-
+    font-size: .8rem;
 }
 .navbar{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    
     background: darkblue;
     height: 53px;
     width: 100%;
@@ -22,11 +21,24 @@
 }
 
 .logo{
-    background: #efc2b3 !important;
-    color: #efc2b3;
+    width: 30%;
+    padding: 0.5em;
+    padding-left: none;
+    margin-left: none;
+}
+
+.menu{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 0.9em;
 }
 
 li{
     list-style-type: none;
     color: #efc2b3;
+    margin-left: 0.1em ;
+    padding: 0.5em;
+    border-left: 0.3em;
 }
