@@ -101,7 +101,7 @@ li{
     height: 100vh;
 }
 
-#mini-console,#audio-console{
+#mini-console,#audio-console, #photo-console, #video-console{
     width: 100%;
 }
 
