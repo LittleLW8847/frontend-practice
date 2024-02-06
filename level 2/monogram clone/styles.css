@@ -95,7 +95,8 @@ li{
 
 .product{
     width: 100%;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
