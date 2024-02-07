@@ -125,9 +125,6 @@ li{
 .product-price{
     margin-left: auto;
     text-align: right;
-    min-width: 8em;
-    position: relative;
-    display: inline-flex;
 }
 
 .description{
@@ -137,5 +134,5 @@ li{
 
 button{
     border-radius: 50rem;
-    opacity: 0;
+    position: initial;
 }
