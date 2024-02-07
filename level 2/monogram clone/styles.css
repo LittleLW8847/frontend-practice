@@ -124,9 +124,18 @@ li{
 
 .product-price{
     margin-left: auto;
+    text-align: right;
+    min-width: 8em;
+    position: relative;
+    display: inline-flex;
 }
 
 .description{
     margin-top: 0.1em;
     margin-bottom: 0.9em;
+}
+
+button{
+    border-radius: 50rem;
+    opacity: 0;
 }
