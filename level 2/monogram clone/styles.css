@@ -100,8 +100,7 @@ li{
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
-    padding-left: 5em;
-    padding-right: 5em;
+    justify-content: center;
 }
 
 #mini-console,#audio-console, #photo-console, #video-console{
@@ -110,4 +109,24 @@ li{
 
 .sample{
     width: 45%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-name{
+    margin-right: auto;
+}
+
+.product-price{
+    margin-left: auto;
+}
+
+.description{
+    margin-top: 0.1em;
+    margin-bottom: 0.9em;
 }
