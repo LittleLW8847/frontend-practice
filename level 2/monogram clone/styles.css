@@ -105,12 +105,16 @@ li{
 
 #mini-console,#audio-console, #photo-console, #video-console{
     width: 100%;
+    grid-area: 1/1;
 }
 
 .sample{
     width: 45%;
     padding-left: 0.5%;
     padding-right: 0.5%;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
 }
 
 .text-section{
@@ -118,6 +122,7 @@ li{
     flex-direction: row;
     max-height: 3em;
     margin-top: 0;
+    grid-area: 2/1;
 }
 
 .product-name{
@@ -145,7 +150,17 @@ li{
     margin-bottom: 0%;
 }
 button{
+    opacity: 0;
     border-radius: 50rem;
     max-height: 50%;
     grid-area: 1/1;
+}
+
+.initially-cant-see{
+    z-index: -1;
+}
+
+.coverpic::hov{
+    opacity: 0;
+    transition: 0.2s;
 }
