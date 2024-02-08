@@ -116,13 +116,20 @@ li{
 .text-section{
     display: flex;
     flex-direction: row;
+    max-height: 3em;
+    margin-top: 0;
 }
 
 .product-name{
     margin-right: auto;
+    margin-top: 0;
 }
 
 .product-price{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: right;
     margin-left: auto;
     text-align: right;
 }
@@ -132,7 +139,13 @@ li{
     margin-bottom: 0.9em;
 }
 
+#price{
+    grid-area: 1/1;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
 button{
     border-radius: 50rem;
-    position: initial;
+    max-height: 50%;
+    grid-area: 1/1;
 }
