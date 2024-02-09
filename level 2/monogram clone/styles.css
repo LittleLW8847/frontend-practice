@@ -149,7 +149,7 @@ li{
     margin-top: 0%;
     margin-bottom: 0%;
 }
-button{
+.shop-btn{
     opacity: 0;
     border-radius: 50rem;
     max-height: 50%;
@@ -160,7 +160,12 @@ button{
     z-index: -1;
 }
 
-.coverpic::hov{
+.coverpic:hover{
     opacity: 0;
     transition: 0.2s;
 }
+
+.sample:hover{
+    
+}
+
