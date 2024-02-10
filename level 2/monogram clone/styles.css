@@ -99,7 +99,6 @@ li{
     flex-wrap: wrap;
     box-sizing: border-box;
     width: 100%;
-    height: 100vh;
     justify-content: center;
 }
 
@@ -177,3 +176,7 @@ li{
     z-index: -1;
 }
 
+#custom-cover{
+    height: 100vh;
+    width: 100%;    
+}
