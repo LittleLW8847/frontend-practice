@@ -168,9 +168,12 @@ li{
 .product-price>.shop-btn:hover{
     opacity: 1;
     overflow: hidden;
+    z-index: 1;
 }
 
-.product-price>.price:hover{
+.product-price>p:hover{
     visibility: hidden;
+    opacity: 0;
+    z-index: -1;
 }
 
