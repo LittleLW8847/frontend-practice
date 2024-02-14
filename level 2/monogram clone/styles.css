@@ -108,7 +108,7 @@ li{
     justify-content: center;
 }
 
-#mini-console,#audio-console, #photo-console, #video-console{
+#mini-console,#audio-console, #photo-console, #video-console, #gridpic{
     width: 100%;
     grid-area: 1/1;
 }
@@ -208,4 +208,24 @@ li{
 
 #custom-cover, .text-custom-section{
     grid-area: 1/1;
+}
+
+.option-part{
+    width: 100%;
+}
+
+.option-grid-product{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-sample{
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
 }
