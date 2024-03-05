@@ -234,3 +234,33 @@ footer{
     background-color: #1a2456;
     color: #efc2b3;
 }
+
+.footer-container{
+    display: flex;
+    padding: 3%;
+}
+
+.footer-container > div{
+    max-height: 15em;
+    margin-right: 1%;
+    text-align: left;
+    font-size: small;
+}
+
+.footer-container > div > ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container > div > ul > li{
+    padding: 0.25em;
+}
+
+.icon-background{
+    display: inline-flex;
+    align-items: center;
+    background-color: #efc2b3;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
