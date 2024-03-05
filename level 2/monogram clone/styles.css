@@ -243,8 +243,14 @@ footer{
 .footer-container > div{
     max-height: 15em;
     margin-right: 1%;
+    max-width: 16.666%;
+    width: 100%;
     text-align: left;
     font-size: small;
+}
+
+.footer-container > div:last-of-type{
+    max-width: 32.666%;
 }
 
 .footer-container > div > ul{
