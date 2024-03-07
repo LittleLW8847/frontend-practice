@@ -78,7 +78,7 @@ li{
     left: 0.5px;
 }
 
-#custom-cover{
+#cover{
     width: 100%;
     z-index: 0;
  
@@ -106,6 +106,7 @@ li{
     box-sizing: border-box;
     width: 100%;
     justify-content: center;
+    margin-top: 0.5em;
 }
 
 #mini-console,#audio-console, #photo-console, #video-console, #gridpic{
@@ -125,6 +126,7 @@ li{
 .text-section{
     display: flex;
     flex-direction: row;
+    padding-top: 0.5em;
     max-height: 3em;
     margin-top: 0;
     grid-area: 2/1;
@@ -219,6 +221,7 @@ li{
     box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 0.5em;
 }
 
 .custom-sample{
@@ -228,6 +231,7 @@ li{
     display: grid;
     grid-template-columns: 2fr;
     grid-template-rows: 1fr;
+    margin-bottom: 1.5em;
 }
 
 footer{
@@ -269,4 +273,22 @@ footer{
     border-radius: 50%;
     height: 2em;
     width: 2em;
+}
+
+.custom-product-name{
+    font-size: medium;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.option-shop-btn{
+    opacity: 0;
+    border-radius: 50rem;
+    max-height: 100%;
+    grid-area: 1/1;
+}
+
+.option-shop-btn:hover{
+    opacity: 100;
 }
